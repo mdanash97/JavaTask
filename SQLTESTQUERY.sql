@@ -1,0 +1,6 @@
+INSERT INTO users(user_name,user_email,user_mobile) VALUES ('Zoey Chambers','zoey.chambers@example.com','702-8490'),('Flenn Scott','flenn.scott@example.com','593-7657'),
+															('Sophia Mckinney','sophia.mckinney@example.com','288-0094'),('Alfredo Ruiz','alfredo.ruiz@example.com','931-2437'),('Janice Sullivan','janice.sullivan@example.com','715-2482');
+INSERT INTO role(role_name) VALUES ('QA'),('ENG'),('DEV'),('MANG'),('QC'),('PM'),('SENIOR'),('TL'),('DBMA');
+INSERT INTO permission(perm_name,perm_description) VALUES ('Assurance','Assurance random description for testing'),('Test','Test random description for testing'),('Release','Release random description for testing'),('DataBase Modify','DBM random description for testing'),('Develope','Develope random description for testing'),('Sales','Sales random description for testing');
+INSERT INTO user_role(user_id,role_id) VALUES ('1','1'),('1','4'),('2','2'),('1','5'),('3','6'),('4','7'),('5','9'),('5','8'),('4','3'),('3','8'),('2','3'),('1','3');
+INSERT INTO role_perm(role_id,perm_id) VALUES ('1','2'),('2','3'),('3','4'),('4','1'),('5','5'),('6','3'),('7','2'),('8','1'),('9','5'),('4','6'),('5','2'),('6','1');
